@@ -1,0 +1,6 @@
+ List l=new ArrayList()
+ l.add("shipra")
+ l.add("shaily")
+ def find={ t,s-> if(l.contains(s)){println("tayal")}}
+ 
+  find(l,"shipra")

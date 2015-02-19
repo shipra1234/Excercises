@@ -1,0 +1,36 @@
+1. vim .bashrc
+   alias search='git search'
+
+2.ln -s intelli.txt s.txt
+
+3.export MY_HOME='/home/shipra/sh'
+
+4.export PATH=$PATH:/home/shipra/myscript
+
+5.sudo apt-get install cheese
+
+
+6.mkdir /home/shipra/sr
+
+7.grep -wc "intelligrape" a.txt
+
+8.grep "intelligrape" /home/shipra/*.txt
+
+9.grep -rl "intelligrape" /home/shipra/*.txt
+
+10. wc -l a.txt
+
+11.scp intelligrape@downloads.intelligrape.com:/home/intelligrape/downloads.intelligrape.com/ ~/Desktop/newfile.txt
+
+12.vim 
+   
+    press i for insert the data and then
+    :w a.txt(create a new file)
+    :q
+
+13.scp movefile.txt shipra@127.0.0.1:~/Desktop/d.txt
+
+14.mv new.txt movefile.txt
+
+15.cp movefile.txt ~/Desktop/movefile.txt
+

@@ -1,0 +1,29 @@
+<html>
+<head>
+ <script type="text/javascript">
+  function check()
+   {
+      var name=document.getElementById("userName").value;
+      var age=document.getElementById("age").value;
+       if(name==null||name=="")
+         {
+              alert("plz enter name");
+              
+          }
+          if(age<18)
+           {
+              alert("u r not eligible");
+            }
+     
+   }
+</script>
+</head>
+<body>
+<form action="#" method="post" onsubmit="check()">
+UserName<input type="text" id="userName">
+Age<input type="text" id="age">
+<input type="submit">
+</form>
+</body>
+</html>
+

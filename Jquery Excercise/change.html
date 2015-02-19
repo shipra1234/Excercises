@@ -1,0 +1,28 @@
+<html>
+<head>
+  <script src="jquery-2.1.3.js"></script>
+<script type="text/javascript">
+  $(document).ready(function(){
+    $('#click').click(function(){
+     
+       if($('h').text()=='hello')
+        {
+            $('h').text('hi');
+         }
+    else
+     {
+         $('h').text('hello');
+      }
+       
+});
+});
+
+</script>
+</head>
+<body>
+   <h>hello</h>
+   
+
+  <input type="button" value="click Me" id="click">
+</body>
+</html>

@@ -1,0 +1,21 @@
+<html>
+<head>
+  <script src="jquery-2.1.3.js"></script>
+  <script type="text/javascript">
+  $(document).ready(function(){
+   $('#Jquery').click(function(){
+    alert($('a[href$=".pdf"]').text());
+ });
+  $('#facebook').click(function(){
+    alert($('a[href^="http"]').text());
+});
+});
+  </script>
+</head>
+<body>
+  <a href="www.google.com/jquery.pdf">Jquery</a>
+   <a href="http://www.facebook.com">facebook</a>
+   <input type="button" id="Jquery" value="jquery">
+<input type="button" id="facebook" value="facebook">
+   </body>
+</html>

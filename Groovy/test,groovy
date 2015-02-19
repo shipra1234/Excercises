@@ -1,0 +1,14 @@
+if('test')
+ {
+ 
+    println("test evaluated to value inside if")
+  }
+  if("test")
+   {
+     println("test evaluated to value inside if")
+    }
+    
+    if(null)
+    {
+      println("null evaluated to value inside if")
+    }

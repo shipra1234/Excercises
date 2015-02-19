@@ -1,0 +1,32 @@
+<html>
+ <head>
+ <script type="text/javascript">
+  
+  
+   function rev()
+   {
+    
+     var another_string="";
+     var name=document.getElementById("uname").value;
+     var len=name.length-1;
+     for(var i=len;i>=0;i--)
+{
+     var st=name.charAt(i);
+    
+     another_string=another_string+st;
+}
+   if(name==another_string)
+{
+  alert("Palindrome");
+ }
+  else
+   {
+      alert("Not Palindrome");
+    }
+  }
+ </script>
+
+ </head>
+  <input type="text" id="uname">
+  <button type="button" onclick="rev()">Submit</button>
+</html>

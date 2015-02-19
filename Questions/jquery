@@ -1,0 +1,13 @@
+
+<a href='http://www.google.com/policy.pdf'>Policy</a>
+<a href='www.yahoo.com/logo.png' title='yahoo logo'>View Logo</a>
+<a href='http://www.facebook.com' title='Facebook'>Facebook</a>
+Select all anchor tags that link to a pdf document.
+Select all anchor tags that start with http
+Select all anchor tags that have titile attribute
+
+Create an anchor tag using jQuery and add href attribute and assign it a value http://www.google.com
+
+Create a simple button and one(or two?) paragraph with text “Hi”. Once the button is clicked, the paragraph text should change to “Hello”. If button is clicked once again, the paragraph text should again change to “Hi”. This process must repeat on subsequent clicks. 
+
+
