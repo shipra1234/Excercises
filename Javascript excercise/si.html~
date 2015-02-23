@@ -2,7 +2,7 @@
  <head>
  </head>
   <script type="text/javascript">
-  var p=prompt("enter Loan Amount");
+  var p=prompt("enter value ");
   var r=prompt("enter rate ");
   var time=prompt("enter number of years");
   

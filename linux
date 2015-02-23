@@ -34,3 +34,6 @@
 
 15.cp movefile.txt ~/Desktop/movefile.txt
 
+16.mysqldump -u root -p  linksharing > user.sql
+
+
